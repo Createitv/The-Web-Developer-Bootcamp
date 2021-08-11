@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: floralwhite;
+	text-align: center;
+	font-family: "ZCOOL QingKe HuangYou", cursive;
+}
+h1 {
+	width: 10%;
+	margin: 0 auto;
+}
+.top-container {
+	background-color: #30e3ca;
+	position: relative;
+	padding-top: 10px;
+}
+.middle-container {
+	/* background-color: #11999e;
+	background-color: red;
+	margin-left: 240px;
+	border: 20px solid black; */
+}
+.bottom-container {
+	/* background-color: #40514e;
+	border: 10px solid black;
+	background-color: yellow;
+	margin-left: 480px; */
+}
+.top-cloud {
+	position: relative;
+	left: 20%;
+}
+.bottom-cloud {
+	position: absolute;
+}
