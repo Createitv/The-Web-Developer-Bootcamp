@@ -3,3 +3,4 @@ javascript-and-jquery-book-code/
 **/*.pdf
 **/Books/
 **/.vscode
+**/.env
