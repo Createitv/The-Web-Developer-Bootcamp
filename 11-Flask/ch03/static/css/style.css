@@ -2,17 +2,35 @@ body {
 	margin: auto;
 	max-width: 580px;
 	font-size: 14px;
-	font-family: serif;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
-footer {
-	color: #888;
-	margin-top: 15px;
-	text-align: center;
-	padding: 10px;
-}
 .avatar {
 	width: 40px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #111;
 }
 
 .movie-list {
@@ -22,10 +40,12 @@ footer {
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
 		0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
+
 .movie-list li {
 	padding: 12px 24px;
 	border-bottom: 1px solid #ddd;
 }
+
 .movie-list li:last-child {
 	border-bottom: none;
 }
@@ -34,8 +54,29 @@ footer {
 	background-color: #f8f9fa;
 }
 
+.float-right {
+	float: right;
+}
+
+.imdb {
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	background: #f5c518;
+	border-radius: 5px;
+	padding: 3px 5px;
+}
+
 .totoro {
 	display: block;
 	margin: 0 auto;
 	height: 100px;
+}
+
+footer {
+	color: #888;
+	margin-top: 15px;
+	text-align: center;
+	padding: 10px;
 }
