@@ -166,3 +166,48 @@
 - git使用参考
 - pull requests简单使用
 
+## Section 24: Databases
+
+-   Kristof Kovacs' [database comparison](https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis)
+-   A bit of context: [Internet Live Stats](http://www.internetlivestats.com/)
+
+## Section 25: SQL
+
+-   W3Schools [on SQL](https://www.w3schools.com/sql/)
+-   SQL Playground on [sqliteonline.com](https://sqliteonline.com/#fiddle-5bbdbaef7288bo2ajn2wly03)
+-   [Data Types in SQL](https://www.w3schools.com/sql/sql_datatypes.asp)
+-   [Primary Keys in SQL](https://www.w3schools.com/sql/sql_primarykey.asp)
+-   [Foreign Keys in SQL](https://www.w3schools.com/sql/sql_foreignkey.asp)
+-   [Inner Joins](https://www.w3schools.com/sql/sql_join_inner.asp)
+-   [Completed SQL demo project](https://sqliteonline.com/#fiddle-5bbdc72f7288eo2ajn2yh604)
+
+## Section 26: MongoDB
+
+-   [How to install MongoDB on Mac](https://blog.londonappbrewery.com/how-to-download-install-mongodb-on-mac-2895ccd2b5c1)
+-   [How to install MongoDB on Windows](https://medium.com/@LondonAppBrewery/how-to-download-install-mongodb-on-windows-4ee4b3493514)
+-   MongoDB [installation documentation for MacOS](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
+-   [MongoDB Docs on CRUD operations](https://docs.mongodb.com/manual/crud/)
+-   [MongoDB Query Operators](https://docs.mongodb.com/manual/reference/operator/query/)
+-   [MongoDB Update Operations](https://docs.mongodb.com/manual/crud/#update-operations)
+-   MongoDB [NodeJS Driver](https://mongodb.github.io/node-mongodb-native/?jmp=docs)
+
+## Section 27: Mongoose
+
+-   [Mongoose: an alternative to the native MongoDB driver](https://mongoosejs.com/)
+-   Mongoose [documentation on the Model](https://mongoosejs.com/docs/api.html#Model)
+-   Mongoose [documentation on data validation](https://mongoosejs.com/docs/validation.html)
+
+## Section 28: Putting Everything Together
+
+-   [Todolist v2 starting files](https://drive.google.com/uc?export=download&id=1ScePzU_iszsmmf4Rd4rlCoL-H1TUohqh)
+-   Mongoose [findByIdAndRemove() method](https://mongoosejs.com/docs/api.html#model_Model.findByIdAndRemove)
+-   MDN on [inputs of type "hidden"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden)
+-   Removing items from an array with[the MongoDB $pull operator](https://docs.mongodb.com/manual/reference/operator/update/pull/)
+-   How to [capitalise Strings using Lodash](https://lodash.com/docs/4.17.10#capitalize)
+-   [Todolist v2 completed web app](https://drive.google.com/uc?export=download&id=1I98mBXaH26WVDQwZ8jCLoHM37ptYbjkt)
+
+## Section 28: Deploying Your Web Application
+
+-   Sign up and deploy a free cluster with [MongoDB Atlas](https://www.mongodb.com/download-center?jmp=nav)
+-   Heroku documentation on [getting started with NodeJS](https://devcenter.heroku.com/articles/getting-started-with-nodejs#prepare-the-app)
+-   [Deploying an existing application on Heroku](https://devcenter.heroku.com/articles/preparing-a-codebase-for-heroku-deployment)

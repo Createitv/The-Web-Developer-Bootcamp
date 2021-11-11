@@ -8,5 +8,5 @@
 console.log(__dirname);
 setInterval(() => {
 	console.log("Hello world!");
-}, 1000);
+}, 2000);
 console.log(__filename);
