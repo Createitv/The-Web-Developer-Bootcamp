@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/vue.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <h1>插值语法</h1>
+        <h3>你好， {{name}}</h3>
+        <h1>指令语法</h1>
+        <a v-bind:href="url">谷歌</a>
+        <a :href="url2">百度</a>
+    </div>
+
+    <!-- 数据绑定，单向双向 -->
+    <div id="root2">
+        单项数据绑定<input type="text" v-bind:value='name'>
+        <!-- v-model只能用于表单类元素 -->
+        双项数据绑定<input type="text" v-model:value='name'>
+        <!-- <h1>测试{{$emit}}</h1> -->
+    </div>
+    <script>
+        Vue.config.productionTip = false
+        new Vue({
+            el: '#root',
+            data: {
+                name: 'jack',
+                url: "https://www.google.com",
+                url2: "https://www.baidu.com"
+            }
+        })
+        newVue = new Vue({
+            el: "#root2",
+            data: {
+                name: "单向绑定"
+            }
+        })
+
+    </script>
+</body>
+
+</html>
