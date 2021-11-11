@@ -1,4 +1,6 @@
 javascript-and-jquery-book-code/
 **/node_modules/
-**/Books/*.pdf
+**/*.pdf
 **/Books/
+**/.vscode
+**/.env
