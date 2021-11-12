@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/vue.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root">
+        <h1>欢迎{{name}}学习</h1>
+        <!-- @click.prevent事件修饰符阻止跳转 -->
+        <a href="www.baidu.com" @click.prevent="showInfo">Baidu</a>
+        <!-- @click.prevent事件修饰符组织冒泡 -->
+        <a href="www.baidu.com" @click.prevent="showInfo">Baidu</a>
+    </div>
+</body>
+<script>
+    Vue.config.productionTip = false
+    new Vue({
+        el: '#root',
+        data: {
+            name: "张三"
+        },
+        methods: {
+            showInfo(event) {
+                alert("同学你好")
+            }
+        }
+    })
+
+</script>
+
+
+</html>
